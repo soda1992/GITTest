@@ -34,7 +34,8 @@ public class Login_Demo {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 		Thread.sleep(3000);
-		
+		System.out.println(" Soda");
+		System.out.println("Soda is busy");
 		String title=driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals("Let's Shop", title);
