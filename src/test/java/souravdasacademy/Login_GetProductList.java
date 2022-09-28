@@ -54,6 +54,7 @@ public class Login_GetProductList {
 				.orElse(null);	*/
 		
 		Thread.sleep(3000);
+	
 		//System.out.println(addidas);
 	addidas.findElement(By.xpath("//b[text()='adidas original']/following::*[5]")).click();
 	
@@ -124,9 +125,7 @@ public class Login_GetProductList {
 	System.out.println(first_order);
 	System.out.println(second_order);
 	
-	
-	
-	
+
 	driver.close();
 	
 	}

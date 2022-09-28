@@ -19,6 +19,19 @@ import org.testng.Assert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Login_Demo {
+	
+	public void getData() {
+		
+		System.out.println("Test");
+	}
+	
+	public void test1() {
+		System.out.println(" Test 2");
+	}
+	
+	public void data_get() {
+		System.out.println("Data transfer");
+	}
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
