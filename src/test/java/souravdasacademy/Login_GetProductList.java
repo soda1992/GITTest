@@ -19,6 +19,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Login_GetProductList {
 
+	public void getData() {
+		System.out.println("");
+	}
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
