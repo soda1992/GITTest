@@ -36,6 +36,11 @@ public class Login_Demo {
 		Thread.sleep(3000);
 		System.out.println(" Soda");
 		System.out.println("Soda is busy");
+		System.out.println("Git");
+		
+		System.out.println("Git");
+		System.out.println("Git");
+		System.out.println("Git");
 		String title=driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals("Let's Shop", title);

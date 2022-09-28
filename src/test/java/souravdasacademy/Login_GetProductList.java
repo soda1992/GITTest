@@ -33,7 +33,8 @@ public class Login_GetProductList {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 		Thread.sleep(3000);
-		
+		System.out.println("Git");
+		System.out.println("Git");
 		String title=driver.getTitle();
 		System.out.println(title);
 		Assert.assertEquals("Let's Shop", title);
