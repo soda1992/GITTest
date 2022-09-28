@@ -75,7 +75,17 @@ public class Login_GetProductList {
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
 	
-
+	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='cartSection']/h3")));
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
+	driver.findElement(By.xpath("//*[@routerlink='/dashboard/cart']")).click();
 	
 	
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='cartSection']/h3")));
